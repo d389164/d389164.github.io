@@ -1,0 +1,204 @@
+/* *{
+    border-style:groove;
+
+} */
+/*global*/
+*{
+    background-color: rgb(33, 48, 82);
+    color: aliceblue;
+}
+table{
+    background-color: white;
+}
+    
+h1{
+    display: flex;
+    flex-direction: column;
+    text-decoration: underline;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/*tabelle*/
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid gray;
+  }
+
+  
+  tr:nth-child(odd) {
+    background-color: white;
+  }
+  
+  th span {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    white-space: pre;size-adjust: 1000px 10px;
+  }
+  th{
+    background-color: green;
+  }
+/*_____________________________________________________________________*/
+  @media screen{
+     header{
+        background-color: rgb(7, 9, 24);
+        margin-bottom:5px ;
+         width: 200px;
+        float: left;
+        height: 600px;
+        margin-right: 50px;
+        
+        
+        display: inline;
+        align-content:center;
+        display: flex;
+        flex-direction: column;
+
+        
+        } 
+
+        header a{
+            background-color: rgb(7, 9, 24);;
+            margin-bottom: 40px;
+        }
+        div{
+            display: flex;
+            align-items: center; 
+            margin-bottom: 1vw; 
+        }
+        
+        
+        label {
+            flex: 2; 
+            font-weight: bold;
+            font-size:2wv;
+
+        }
+        
+        
+        input,select{
+            width: 80%; 
+            padding: 0.5rem;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button{
+            margin-top:5vw ;
+            
+            
+            }
+    
+    
+
+
+
+
+}
+   
+
+
+/*tablet*/
+
+@media screen and (max-width: 868px ) {
+    body{
+        flex-direction: column;
+    }
+    header{
+        height: auto;
+        width: 100%;
+        float: none;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-bottom: 4vw;
+        font-style: italic;
+        /* min-height: auto; */
+    }
+    
+    div{
+        display: flex;
+        align-items: center; 
+        margin-bottom: 1vw; 
+    }
+    
+    
+    label {
+        flex: 2; 
+        font-weight: bold;
+        font-size:100%;
+    }
+    
+    
+    input,select{
+        width: 50%; 
+        padding: 0.5rem;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+    button{
+        margin-top:5vw ;
+        
+        
+        }
+}
+
+
+
+
+
+
+
+
+/*handy*/
+
+
+
+@media screen and (max-width: 485px ) {
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+    
+}
+header a{
+    margin-bottom: 0px;
+}
+
+div{
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-bottom: 10px;
+}
+
+input,select{
+    font-size: 6vw;
+    width: 90%;
+    border: 1px solid black;
+    padding:8px 10px;
+    
+    
+}
+
+label{
+    font-size: 6vw;
+    font-weight:bold ;
+}
+button{
+    margin-top:4px ;
+    width: 100%;
+    padding: 12px;
+    
+}
+
+}

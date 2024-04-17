@@ -1,0 +1,106 @@
+/* styles.css */
+/* *{
+    border-style: groove;
+} */
+@media print {
+    body{
+        page-break-after: always !important;
+    }
+    
+}
+body{
+    page-break-after: always !important;
+}
+  
+body{
+    display: flex;
+    flex-direction: column;
+    
+   
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    
+    background-color:white;
+    
+    
+}
+
+h2,h1, p, ul, li{
+    margin: 0;
+    padding: 0;
+    font-size: 2vw;
+
+}
+
+
+
+
+
+ul {
+
+    margin: 0;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(16, 15, 15, 0.1);
+}
+
+
+
+h1 {
+    color: #333;
+    font-size: 2vw;
+    margin-bottom: 20px;
+}
+
+
+h2 {
+   
+    background-color:rgb(189, 185, 185);
+    font-weight:bold;
+    
+    line-height: 1.5;
+}
+
+
+ul {
+    border-style: groove;
+    margin-left:3px;
+    text-decoration: none;
+    
+}
+li{
+    margin-left: 2%;
+}
+
+
+li {
+    margin-bottom: 10px;
+}
+
+table {
+    align-items:center;
+    font-size: 2vw;
+    font-weight: bold;
+    margin-top: 10px;
+    border-collapse: collapse;
+    width: 100%;
+    border-style: groove;
+    page-break-after: always;
+  }
+  
+  th, td {
+    border-style: groove;
+    
+    text-align: center;
+    border-bottom: 1px solid gray;
+  }
+  td{
+    padding-top: 100px;
+    
+    
+  }
+
+
+
+  

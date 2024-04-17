@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+            <a href="/Abwesenheit_oder_Urlaub.html">Abwesenheit_oder_Urlaub</a>
+            <a href="/Berufsschule.html">Berufsschule</a>
+            <a href="/Personendaten.html">Personendaten</a>
+            <a href="/Tätigkeiten.html">Tätigkeiten</a>
+            <a href="index.html">Menü</a>  
+    </header>
+    <form action="/test.html" method="get">
+        <h1>Abwesenheit oder Urlaub</h1>
+        <div>
+        <label for="Beginn">Beginn</label>
+        <input type="date" required></div>
+    <div>
+        <label for="Ende">Ende</label>
+        <input type="date" required></div>
+    <div>
+        <label for="grund">Bezeichnung</label>
+        <select name="Bezeichnung" id="Bezeichnung">
+            <option value="Urlaub">Urlaub</option>
+            <option value="Krankheitstag">Krankheitstag</option>
+        </select>
+    </div>
+        <button type="submit">Senden</button>
+    </form>
+    
+    <table>
+        <thead>
+            <th>Beginn</th>
+            <th>Ende</th>
+            <th>Bezeichnung</th>
+        </thead>
+        <tbody><tr>
+            <td>10.1.2014</td>
+            <td>11.1.2024</td>
+            <td>Krankheitstag</td>
+            </tr>
+
+            <tr>
+            <td>11.1.2024</td>
+            <td>15.1.2024</td>
+            <td>Krankheitstag</td>
+            </tr>
+            
+            <tr>
+            <td>10.1.2025</td>
+            <td>11.1.2024</td>
+            <td>Urlaub</td>
+            </tr>
+            
+            <tr>
+            <td>14.1.2024</td>
+            <td>20.1.2024</td>
+            <td>Urlaub</td>
+            </tr>
+
+        </tbody>
+
+
+    </table>
+    
+    
+</body>
+</html>
