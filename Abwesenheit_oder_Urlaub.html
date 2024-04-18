@@ -18,10 +18,10 @@
         <h1>Abwesenheit oder Urlaub</h1>
         <div>
         <label for="Beginn">Beginn</label>
-        <input type="date" required></div>
+        <input type="date" id="Beginn" name="Beginn" required></div>
     <div>
         <label for="Ende">Ende</label>
-        <input type="date" required></div>
+        <input type="date"name="Ende" id="Ende" required></div>
     <div>
         <label for="grund">Bezeichnung</label>
         <select name="Bezeichnung" id="Bezeichnung">
@@ -33,10 +33,11 @@
     </form>
     
     <table>
-        <thead>
+        <thead><tr>
             <th>Beginn</th>
             <th>Ende</th>
             <th>Bezeichnung</th>
+            </tr>
         </thead>
         <tbody><tr>
             <td>10.1.2014</td>
